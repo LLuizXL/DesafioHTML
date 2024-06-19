@@ -1,0 +1,148 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Variáveis */
+:root {
+  --bg-color: #fff;
+  --header-color: #353a3d;
+  --light-color: rgba(245, 188, 202, 0.2);
+  --button-color: rgb(207, 28, 67);
+}
+
+body {
+  text-decoration: none;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+/* Header */
+#header {
+  background: var(--header-color);
+  padding: 20px; /* padding consistente */
+  color: var(--bg-color);
+  text-align: center; /* Centraliza o texto */
+  font-size: 20px;
+  font-family: system-ui, sans-serif;
+  font-weight: 400;
+}
+
+/* Darkbox Cover */
+#box-cover {
+  background: var(--light-color);
+  max-width: 558px;
+  width: 100%; /* Largura relativa */
+  margin: 120px auto 0px; /* Margem automática para centralizar */
+  text-align: center;
+  padding: 0px 24px;
+  padding-top: 30px; /* Padding consistente */
+  font-size: large;
+}
+
+h6 {
+  font-size: smaller;
+  font-weight: 40;
+}
+#texto-signup {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#divisor {
+  margin: 12px auto 12px;
+  background: #e35486;
+  height: 5px;
+  width: 70px;
+}
+
+#pergunta {
+  color: #353a3d;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+}
+
+p {
+  color: rgba(0, 0, 0, 0.7);
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+}
+
+#formulario {
+    margin: 50px;
+  gap: 20px;
+  border: 0;
+  outline: 0;
+}
+
+#nome-senha p{
+    text-align: left;
+    margin: 0px 25px 0px;
+
+}
+
+
+#nome-sobrenome{
+    margin: 15px auto 0px;
+    align-items: right;
+    display: flex;
+    justify-content: center;
+}
+#nome-sobrenome p{
+    text-align: left;
+    margin: 0px 25px 0px;
+}
+#nome-sobrenome input{
+    outline: 0;
+    border: 0;
+    height: 30px;
+    width: 200px;
+    margin: 15px 25px 15px;
+}
+#email p{
+    text-align: left;
+    margin: 0px 25px 0px;
+    
+}
+#email input{
+    
+    outline: 0;
+    border: 0;
+    height: 30px;
+    width: 400px;
+    margin: 15px 25px 15px;
+}
+#senha p{
+    text-align: left;
+    margin: 0px 25px 0px;
+
+}
+
+
+#senha input{
+    outline: 0;
+    border: 0;
+    height: 30px;
+    width: 400px;
+    margin: 15px 25px 15px;
+}
+
+
+#botao-enviar button {
+    margin: 30px auto 0px;
+  background: #e35486;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  outline: 0;
+  height: 40px;
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#footer{
+
+};
